@@ -994,7 +994,7 @@ type agentPoolType = {
   proximityPlacementGroupResourceId: string?
 
   @description('Optional. The scale down mode of the agent pool.')
-  scaleDownMode: ('Delete' | 'Pause' | 'Requeue' | 'DeleteRequeue')?
+  scaleDownMode: ('Delete' | 'Deallocate')?
 
   @description('Optional. The scale set eviction policy of the agent pool.')
   scaleSetEvictionPolicy: ('Delete' | 'Deallocate')?

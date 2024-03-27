@@ -224,10 +224,8 @@
           "scaleDownMode": {
             "type": "string",
             "allowedValues": [
-              "Delete",
-              "DeleteRequeue",
-              "Pause",
-              "Requeue"
+              "Deallocate",
+              "Delete"
             ],
             "nullable": true,
             "metadata": {
